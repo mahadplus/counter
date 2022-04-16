@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Inconsolata', monospace;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: #EDE6DB;
+    
+}
+.continer{
+    background-color: #CAE4DB;
+    padding: 55px;
+    border-radius: 15px;
+    text-align: center;
+}
+h1{
+    font-size: 4rem;
+    padding: 10px;
+}
+#counter{
+    font-size: 6rem;
+    padding: 5px;
+}
+.btn{
+    padding: 8px;
+    border-radius: 5px;
+    background-color: #EDE6DB;
+    cursor: pointer;
+    border: none;
+}
+.decrease:hover{
+    background-color: #CE1212;
+}
+.decrease:active{
+    background-color: #810000;
+}
+.increase:hover{
+    background-color: #00917C;
+}
+.increase:active{
+    background-color: #194350;
+}
+
+.reset:active{
+    background-color: #F5F5F5;
+}
